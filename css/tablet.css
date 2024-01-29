@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+/* tablet 해상도 */
+@media screen and (min-width:767px) and (max-width:1025px) {
+
+/* header */
+.h_inner{
+  width: 100%; height: 50px;
+  /* background: #00f; */
+}
+.h_inner > h1{
+  padding: 5px 0px 0px 1%;
+}
+.h_inner > h1 > a > img{width: 150px;}
+
+
+/* gnb */
+.gnb{
+  top: 5px; right: 1%;
+}
+.gnb > ul > li > a, .gnb > ul > li > a > i{
+  font-size: 1rem;
+  line-height: 2.5em;
+}
+
+.sub{
+  width: 100px;
+}
+
+
+
+
+
+
+/* main */
+.visual{height: 422px;}
+
+/* 좌우버튼 */
+.l_btn > i, .r_btn > i{font-size: 1.2rem;}
+.l_btn > i{
+  padding: 25px 10px 25px 5px;
+}
+.r_btn > i{
+  padding: 25px 5px 25px 10px;
+}
+
+/* sns */
+.sns{
+  position: absolute;
+  bottom: 25%; right: 5%;
+  z-index: 5;
+}
+.sns > a > i{
+  width: 40px; height: 40px;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+/* article 공통서식 */
+article{
+  width: 100%;
+  margin: 0px 1%;
+  padding: 80px 0px;
+}
+
+
+
+
+/* 검색 */
+.search_wrap > h3{
+  font-size: 2rem;
+  line-height: 45px;
+}
+.hash{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+
+
+
+/* intro */
+.intro > ul > li{
+  width: 40%;
+  padding: 20px;
+}
+.intro > ul > li > h3{
+  font-size: 1.1rem;
+  margin: 30px;
+}
+.intro > ul > li > p{
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+
+.re_banner > a{display: block;} 
+.re_banner > a > img{width: 100%;} 
+
+
+
+
+
+/* tab */
+.tab a{font-size: 0.9rem;}
+.tab_btn div >  p{font-size: 1.1rem;}
+
+
+
+
+/* clean */
+.clean{
+  width: 100%; height: 500px;
+  overflow: hidden;
+  background-image: url(../img/clean.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.clean > h2{color: #fff; line-height: 40px;}
+.clean_inner{
+  display: flex;
+  margin: 0px auto;
+  width: 80%;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 105px; left: 50%;
+  transform: translateX(-50%);
+}
+.clean_inner > li > img{
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 20px;
+}
+.clean_inner > li > p{
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+
+
+
+
+/* banner */
+.banner{position: relative;}
+.banner > h2{display: none;}
+.banner > div{
+  width: 100%;
+  overflow: hidden;
+}
+/* .banner_inner{
+  width: 100%;
+  display: flex;
+} */
+.banner_inner img{
+  width: 100%;
+}
+
+.banner > div > i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+.fa-angle-left{left: 1%;}
+.fa-angle-right{right: 1%;}
+
+
+
+
+/* event */
+.event{margin: 0px;}
+.event_inner{
+  width: 100%;
+  margin: 0px 1%;
+}
+.event_inner > ul{
+  justify-content: space-between;
+  text-align: center;
+}
+.event_inner > ul > li > a img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+.event_btn{width: 100%;}
+
+
+
+
+
+/* footer */
+footer{
+  width: 100%;
+}
+.f_top_inner{
+  width: 100%;
+  margin: 0px auto;
+}
+.f_top h1 img{width: 130px;}
+
+.company{width: 60%; flex-wrap: wrap; line-height: 20px;}
+.company > a{font-size: 0.8rem;}
+
+
+.f_bottom{
+  width: 100%;
+  margin: 0px auto;
+  padding: 60px 0px;
+}
+.f_lnb > nav{width: 100%; flex-wrap: wrap; line-height: 30px; justify-content: left;}
+.f_lnb > nav > a{
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.f_lnb > nav > a::after{
+  border-right: 1px solid #043C5C;
+  display: inline-block;
+  content: "";
+  height: 12px;
+  padding-left: 15px;
+}
+
+.f_bottom > address{font-size: 0.8rem; text-indent: 15px;}
+
+.f_sns > a > i{
+  width: 40px; height: 40px;
+  font-size: 1.2rem;
+}
+
+
+
+
+}

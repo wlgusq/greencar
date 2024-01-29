@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/* 기본 폰트 및 크기 설정 */
+
+  /* 나눔고딕 */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+  /* 노토산스 */
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+  body{
+    font-size: 13px;
+    color: #043C5C;
+    overflow-x: hidden;
+    text-decoration: none;
+  }
+
+  main{overflow-x: hidden;}
+
+  a{color: #043C5C; text-decoration: none;}
+
+
+  *{font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;}
+h1, h2, h3, h4, h5, h6{color: #043C5C;}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{font-family: 'Noto Sans KR', sans-serif;
+color: #043C5C; font-weight: 500;}
+
+footer{
+  font-family: 'Nanum Gothic', 'Noto Sans KR', sans-serif; color: #999;}
+
+footer *{color: #999; font-weight: 300; }
+
+footer > .f_box > address{font-weight: 300;}
