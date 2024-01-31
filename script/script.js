@@ -3,7 +3,7 @@ $(document).ready(function(){
   // 서브 메뉴 나오기 숨기기
   let mnu = $('header .gnb > ul > li > a')
 
-  mnu.click(function(){
+  mnu.mouseover(function(){
     $(this).next().toggle().parent().siblings().find('.sub').hide();
   });
 
@@ -110,7 +110,6 @@ function c_popup(){
   let ran = Math.floor(Math.random()*3+1);
 
   document.getElementById('r_img').src='./img/re0'+ran+'.png';
-  document.getElementById('ra_img').src='./img/re0'+ran+'-1.png';
 
 
 

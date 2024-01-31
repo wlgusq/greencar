@@ -97,7 +97,8 @@ i.fa-bars{
   transform: translateX(-40%);
 }
 .sns > a > i{
-  width: 40px; height: 40px;
+  width: 35px; height: 35px;
+  padding: 7px;
   font-size: 1.2rem;
   margin: 0px 2px;
 }
@@ -129,7 +130,7 @@ article > h2{
 
 .search{margin: 0px 1%;}
 .search > input[type=search]{
-  width: 80%; height: 40px;
+  width: 60%; height: 40px;
   font-size: 1rem;
 }
 .search > input[type=submit]{font-size: 1rem;}
@@ -177,8 +178,8 @@ article > h2{
 }
 
 
-.re_banner > a{display: block;} 
-.re_banner > a > img{width: 100%;} 
+
+.re_banner > a > img{width: 100%; overflow: hidden; scale: 1.9; margin: 40px 0px;} 
 
 
 
@@ -262,20 +263,20 @@ article > h2{
 
 
 /* clean */
-.clean{height: 600px;}
+.clean{height: 500px;}
 .clean_inner{
   flex-wrap: wrap;
   bottom: 40px; left: 50%;
   text-align: center;
 }
 .clean_inner > li > img{
-  padding: 20px;
-  width: 50%;
+  padding: 15px;
+  width: 25%;
 }
 .clean_inner > li > p{
   text-align: center;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 20px;
   margin: 20px 0px;
 }
