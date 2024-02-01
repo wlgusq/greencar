@@ -3,7 +3,7 @@ $(document).ready(function(){
   // 서브 메뉴 나오기 숨기기
   let mnu = $('header .gnb > ul > li > a')
 
-  mnu.mouseover(function(){
+  mnu.click(function(){
     $(this).next().toggle().parent().siblings().find('.sub').hide();
   });
 
